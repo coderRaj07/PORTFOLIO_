@@ -61,7 +61,10 @@ export default function About() {
             <ul className="text-secondary space-y-2">
               <li>React / Next.js</li>
               <li>TypeScript</li>
+              <li>Prisma</li>
+              <li>Tanstack</li>
               <li>Tailwind CSS</li>
+              <li>Shadcn</li>
               <li>HTML5 / CSS3</li>
             </ul>
           </motion.div>
@@ -75,9 +78,13 @@ export default function About() {
             <h3 className="text-xl font-semibold mb-2">Backend</h3>
             <ul className="text-secondary space-y-2">
               <li>Node.js</li>
+              <li>Nest.js</li>
               <li>Express</li>
+              <li>Fastify</li>
+              <li>Django</li>
               <li>PostgreSQL</li>
               <li>MongoDB</li>
+              <li>Redis</li>
             </ul>
           </motion.div>
           
@@ -91,6 +98,7 @@ export default function About() {
             <ul className="text-secondary space-y-2">
               <li>Git / GitHub</li>
               <li>Docker</li>
+              <li>Kubernetes</li>
               <li>AWS</li>
               <li>CI/CD</li>
             </ul>
@@ -121,13 +129,17 @@ export default function About() {
             variants={fadeInUp}
             {...cardHoverSmall}
           >
-            <h3 className="text-xl font-semibold mb-2">Senior Full Stack Developer</h3>
-            <p className="text-primary mb-2">Company Name • 2020 - Present</p>
+            <h3 className="text-xl font-semibold mb-2">Full Stack Developer</h3>
+            <p className="text-primary mb-2">Metaverse Ventures • Nov 2023 - Present</p>
             <ul className="text-secondary list-disc list-inside space-y-2">
-              <li>Led development of multiple web applications using React and Node.js</li>
-              <li>Implemented CI/CD pipelines reducing deployment time by 50%</li>
-              <li>Mentored junior developers and conducted code reviews</li>
+              <li>Developed scalable full-stack applications using Next.js, NestJS, MongoDB and PostgreSQL</li>
+              <li>Designed and implemented CI/CD pipelines with GitHub Actions, reducing deployment time and eliminating manual intervention</li>
+              <li>Collaborated closely with DevOps to identify and resolve critical deployment bottlenecks, increasing release success rate by 90%</li>
+              <li>Drove the successful launch of the Zlayer Protocol MVP in under 2 months by delivering 70% of the core proof-of-concept logic independently</li>
+              <li>Refactored and optimized complex database queries and indexing strategies, resulting in a 40% boost in API response times and system performance</li>
+              <li>Developed backend for a Crypto Trading Marketplace, including secure user flows, PostgreSQL schema design, RBAC implementation, and high-performance bulk order processing</li>
             </ul>
+
           </motion.div>
           
           <motion.div 
@@ -136,11 +148,10 @@ export default function About() {
             {...cardHoverSmall}
           >
             <h3 className="text-xl font-semibold mb-2">Full Stack Developer</h3>
-            <p className="text-primary mb-2">Previous Company • 2018 - 2020</p>
+            <p className="text-primary mb-2">TraceX Technologies• Jan 2023 - Sep 2023</p>
             <ul className="text-secondary list-disc list-inside space-y-2">
               <li>Developed and maintained RESTful APIs</li>
               <li>Built responsive user interfaces with modern JavaScript frameworks</li>
-              <li>Optimized database queries improving performance by 40%</li>
             </ul>
           </motion.div>
         </motion.div>
@@ -168,8 +179,8 @@ export default function About() {
             variants={fadeInUp}
             {...cardHoverSmall}
           >
-            <h3 className="text-xl font-semibold mb-2">Bachelor of Science in Computer Science</h3>
-            <p className="text-primary mb-2">University Name • 2014 - 2018</p>
+            <h3 className="text-xl font-semibold mb-2">Bachelor of Technology in Computer Science</h3>
+            <p className="text-primary mb-2">International Institute of Information Technology (IIIT), Bhubaneswar • 2019 - 2023</p>
             <p className="text-secondary">
               Graduated with honors. Focused on software engineering and web development.
             </p>
