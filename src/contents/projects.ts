@@ -22,8 +22,8 @@ export const projects: Project[] = [
         title: 'Cold Emailing Automation System',
         description: 'An end-to-end cold emailing system built using n8n, designed to send personalized outreach emails in smart batches. It uses Google Sheets as a lead source, webhooks to trigger workflows, JavaScript code nodes for logic, and conditional branching (if/else) to dynamically handle delivery, retries, and status tracking. Emails are split into batches with delays to avoid spam filters and improve deliverability.',
         technologies: ['n8n', 'Google Sheets', 'Webhooks', 'JavaScript', 'Email Automation'],
-        githubLink: 'https://github.com/coderRaj07/COLD_EMAIL_AUTOMATION', 
-        demoLink: 'https://n8n-0css.onrender.com/workflow/iTQ6isWFRmVfDweM',     // Replace with real demo URL if available
+        githubLink: 'https://n8n-0css.onrender.com/workflow/iTQ6isWFRmVfDweM', 
+        demoLink: 'https://www.loom.com/share/2bfe1f74907d490c93193f5513a7f9a6?sid=dd164880-e17d-4a6b-aa7e-6db118e59835',     // Replace with real demo URL if available
         image: '/COLD_EMAIL_AUTOMATION.png'
       }
   ];
