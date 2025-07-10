@@ -18,6 +18,13 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "CoderRaj07 | Portfolio Website using Next.js, Tailwind CSS, and Framer Motion",
   description: "CoderRaj07 is a portfolio website for developers to showcase their projects and skills.",
+  icons: {
+    icon: [
+      { url: '/favicon.ico' },
+      { url: '/muaythaiCoder.png', sizes: '48x48', type: 'image/png' }
+    ],
+    apple: '/apple-touch-icon.png',
+  }
 };
 
 export default function RootLayout({

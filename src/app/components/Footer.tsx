@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from "next/image"
 import { FaGithub, FaTwitter, FaLinkedin } from 'react-icons/fa'
 
 export default function Footer() {
@@ -7,8 +8,16 @@ export default function Footer() {
       <div className="container max-w-7xl mx-auto px-4 py-8">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
-            <Link href="/" className="text-xl font-bold text-primary">
-              CoderRaj07&trade;
+            <Link href="/" className="flex items-center space-x-2">
+              <Image
+                src="/muaythaiCoder.png"
+                alt="CoderRaj07"
+                width={32}
+                height={32}
+                className="rounded"
+                priority
+              />
+              <span className="text-xl font-bold text-primary">CoderRaj07&trade;</span>
             </Link>
             <p className="text-sm text-secondary mt-2">
               © {new Date().getFullYear()} CoderRaj07. All rights reserved.
