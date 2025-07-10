@@ -2,27 +2,27 @@
 
 import { FaCode, FaLaptopCode, FaGraduationCap } from 'react-icons/fa'
 import { motion } from 'framer-motion'
-import { 
-  fadeInUp, 
-  fadeInDown, 
-  fadeIn, 
-  staggerContainer, 
-  cardHover, 
-  cardHoverSmall 
+import {
+  fadeInUp,
+  fadeInDown,
+  fadeIn,
+  staggerContainer,
+  cardHover,
+  cardHoverSmall
 } from '@/utils/animations'
 
 export default function About() {
   return (
     <div className="container max-w-7xl mx-auto py-12">
-      <motion.h1 
+      <motion.h1
         className="text-4xl font-bold mb-8 text-center"
         {...fadeInDown}
       >
         About Me
       </motion.h1>
-      
+
       {/* Bio Section */}
-      <motion.section 
+      <motion.section
         className="mb-16"
         {...fadeInUp}
       >
@@ -34,24 +34,24 @@ export default function About() {
       </motion.section>
 
       {/* Skills Section */}
-      <motion.section 
+      <motion.section
         className="mb-16"
         {...fadeIn}
         transition={{ delay: 0.2 }}
       >
-        <motion.h2 
+        <motion.h2
           className="section-title"
           {...fadeInUp}
         >
           Skills
         </motion.h2>
-        <motion.div 
+        <motion.div
           className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
           variants={staggerContainer}
           initial="initial"
           animate="animate"
         >
-          <motion.div 
+          <motion.div
             className="bg-white dark:bg-dark/50 p-6 rounded-lg shadow-md"
             variants={fadeInUp}
             {...cardHover}
@@ -68,8 +68,8 @@ export default function About() {
               <li>HTML5 / CSS3</li>
             </ul>
           </motion.div>
-          
-          <motion.div 
+
+          <motion.div
             className="bg-white dark:bg-dark/50 p-6 rounded-lg shadow-md"
             variants={fadeInUp}
             {...cardHover}
@@ -87,8 +87,8 @@ export default function About() {
               <li>Redis</li>
             </ul>
           </motion.div>
-          
-          <motion.div 
+
+          <motion.div
             className="bg-white dark:bg-dark/50 p-6 rounded-lg shadow-md"
             variants={fadeInUp}
             {...cardHover}
@@ -107,24 +107,24 @@ export default function About() {
       </motion.section>
 
       {/* Experience Section */}
-      <motion.section 
+      <motion.section
         className="mb-16"
         {...fadeIn}
         transition={{ delay: 0.4 }}
       >
-        <motion.h2 
+        <motion.h2
           className="section-title"
           {...fadeInUp}
         >
           Experience
         </motion.h2>
-        <motion.div 
+        <motion.div
           className="max-w-3xl mx-auto space-y-8"
           variants={staggerContainer}
           initial="initial"
           animate="animate"
         >
-          <motion.div 
+          <motion.div
             className="bg-white dark:bg-dark/50 p-6 rounded-lg shadow-md"
             variants={fadeInUp}
             {...cardHoverSmall}
@@ -132,17 +132,19 @@ export default function About() {
             <h3 className="text-xl font-semibold mb-2">Full Stack Developer</h3>
             <p className="text-primary mb-2">Metaverse Ventures • Nov 2023 - Present</p>
             <ul className="text-secondary list-disc list-inside space-y-2">
-              <li>Developed scalable full-stack applications using Next.js, NestJS, MongoDB and PostgreSQL</li>
-              <li>Designed and implemented CI/CD pipelines with GitHub Actions, reducing deployment time and eliminating manual intervention</li>
-              <li>Collaborated closely with DevOps to identify and resolve critical deployment bottlenecks, increasing release success rate by 90%</li>
-              <li>Drove the successful launch of the Zlayer Protocol MVP in under 2 months by delivering 70% of the core proof-of-concept logic independently</li>
-              <li>Refactored and optimized complex database queries and indexing strategies, resulting in a 40% boost in API response times and system performance</li>
-              <li>Developed backend for a Crypto Trading Marketplace, including secure user flows, PostgreSQL schema design, RBAC implementation, and high-performance bulk order processing</li>
+              <li>Migrated legacy Node.js codebases into modular, scalable NestJS services, improving maintainability and development velocity.</li>
+              <li>Designed and optimized RESTful APIs for trading, NFT listings, and bulk order operations with serialized, paginated responses for high-performance delivery.</li>
+              <li>Built asynchronous job processing and recurring tasks using BullMQ queues and cron jobs for syncing blockchain events, auto-cleanups, and periodic automation.</li>
+              <li>Implemented secure authentication and authorization using JWT, OAuth2, and role-based access control (RBAC) across protected endpoints.</li>
+              <li>Integrated external APIs such as Moralis, Alchemy, and Stripe to support real-time blockchain data sync, NFT metadata ingestion, and payment workflows.</li>
+              <li>Applied Redis caching and concurrency controls to reduce latency by 60% and improve high-load throughput.</li>
+              <li>Spearheaded Zlayer Protocol MVP, contributing 70%+ of backend logic and setting up CI/CD automation via GitHub Actions within 2 months.</li>
+              <li>Worked closely with DevOps to optimize Docker and Kubernetes deployments for consistent production delivery.</li>
             </ul>
 
           </motion.div>
-          
-          <motion.div 
+
+          <motion.div
             className="bg-white dark:bg-dark/50 p-6 rounded-lg shadow-md"
             variants={fadeInUp}
             {...cardHoverSmall}
@@ -162,19 +164,19 @@ export default function About() {
         {...fadeIn}
         transition={{ delay: 0.6 }}
       >
-        <motion.h2 
+        <motion.h2
           className="section-title"
           {...fadeInUp}
         >
           Education
         </motion.h2>
-        <motion.div 
+        <motion.div
           className="max-w-3xl mx-auto"
           variants={staggerContainer}
           initial="initial"
           animate="animate"
         >
-          <motion.div 
+          <motion.div
             className="bg-white dark:bg-dark/50 p-6 rounded-lg shadow-md"
             variants={fadeInUp}
             {...cardHoverSmall}
