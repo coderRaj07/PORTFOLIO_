@@ -3,6 +3,14 @@ import { Project } from "@/types";
 
 export const projects: Project[] = [
   {
+    title: 'Crypto Trading Platform',
+    description: 'Worked on the core backend part of this project in my previous company, that includes queue managements of Bulk order managements, AWS infrastructure management',
+    technologies: ['Nest.js', 'MongoDB', 'Web3', 'Redis', 'Cronjobs', 'BullMQ', 'Webhook', 'REST APIs', 'Role-based Access', 'AWS', 'Docker', 'Kubernetes'],
+    githubLink: '', // Likely private if it's for a company
+    demoLink: 'https://app.sector51.ai/dashboard',
+    image: 'https://image.thum.io/get/width/800/https://app.sector51.ai/dashboard'
+  },
+  {
     title: 'NidhiseviAI: AI Finance Platform',
     description: 'A full-stack, AI-powered finance management platform that enables users to track income and expenses, scan receipts using AI, automate recurring transactions, and get personalized monthly financial insights via email.',
     technologies: [
@@ -23,14 +31,6 @@ export const projects: Project[] = [
     githubLink: 'https://github.com/coderRaj07/ai_finance',
     demoLink: 'https://ai-finance-sepia.vercel.app/',
     image: 'https://image.thum.io/get/width/800/https://ai-finance-sepia.vercel.app'
-  },
-  {
-    title: 'Crypto Trading Platform',
-    description: 'Worked on the core backend part of this project in my previous company, that includes queue managements of Bulk order managements, AWS infrastructure management',
-    technologies: ['Nest.js', 'MongoDB', 'Web3', 'Redis', 'Cronjobs', 'BullMQ', 'Webhook', 'REST APIs', 'Role-based Access', 'AWS', 'Docker', 'Kubernetes'],
-    githubLink: '', // Likely private if it's for a company
-    demoLink: 'https://app.sector51.ai/dashboard',
-    image: 'https://image.thum.io/get/width/800/https://app.sector51.ai/dashboard'
   },
   {
     title: 'Cold Emailing Automation System',
